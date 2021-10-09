@@ -33,7 +33,7 @@ public class Main{
             confirm=scan.next();
         }
         Thread.sleep(500);
-        System.out.println("\nAccess Granted to the user-id : "+id+"..");
+        System.out.println("\nAccess Granted to the user-id : "+id);
         
         Thread.sleep(200);
         System.out.println("Are you hungry yes or no?..");
@@ -99,8 +99,12 @@ public class Main{
             else{System.out.println("\nInvalid Choice..");}
         }
         
-        else if(ans1.equals("no")){System.out.println("\nHave a good day..");}
+        else if(ans1.equals("no")){
+        Thread.sleep(200);
+        System.out.println("\nHave a good day..");}
        
-        else{System.out.println("\nInvalid Choice..");}
+        else{
+        Thread.sleep(200);
+        System.out.println("\nInvalid Choice..");}
     }
 }
