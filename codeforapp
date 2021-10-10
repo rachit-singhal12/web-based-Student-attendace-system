@@ -1,17 +1,23 @@
 import java.util.Scanner;
-
+class Details{
+    void thanku(String add)
+    {
+        System.out.println("Thanku for your order, Your order is delivered on "+add+" within 15 minutes..");
+    }
+}
 public class Main{
     public static void main(String [] args)throws InterruptedException
     {
+        Details D=new Details();
         System.out.println("/////////////////LET START!/////////////////\n");
         Thread.sleep(2500);
         System.out.println("Hello, Welcome to the FOOD APP..\n");
         Thread.sleep(1000);
         Scanner scan=new Scanner(System.in);
         System.out.println("Please create an user id..");
-        String id=scan.next();
+        String id=scan.nextLine();
         System.out.println("Please create a password..");
-        String password=scan.next();
+        String password=scan.nextLine();
         System.out.println("Please Wait, for a minute..");
         Thread.sleep(2000);
         System.out.println("Now your user-id is : "+id);
@@ -19,26 +25,45 @@ public class Main{
         Thread.sleep(1000);
         System.out.println("\n\nConfirm your identification..");
         System.out.println("Enter your user-id..");
-        String confirmuser=scan.next();
+        String confirmuser=scan.nextLine();
         System.out.println("Enter your password..");
-        String confirm=scan.next();
+        String confirm=scan.nextLine();
         
         while((!confirm.equals(password)&&!confirmuser.equals(id))||(!confirm.equals(password)&&confirmuser.equals(id))||(confirm.equals(password)&&!confirmuser.equals(id)))
         {
             Thread.sleep(100);
             System.out.println("The input data is incorrect Please check your user id and password once again..\n");
             System.out.println("Enter your user-id..");
-            confirmuser=scan.next();
+            confirmuser=scan.nextLine();
             System.out.println("Enter your password..");
-            confirm=scan.next();
+            confirm=scan.nextLine();
         }
         Thread.sleep(500);
         System.out.println("\nAccess Granted to the user-id : "+id);
         
+        System.out.println("Enter some details regarding to yourself");
+        
+        System.out.println("Enter your address");
+        String add=scan.nextLine();
+        
+        System.out.println("Enter your phone number");
+        String phone=scan.nextLine();
+        int n=phone.length();
+        while(n!=10)
+        {
+            System.out.println("invlaid phone number");
+            System.out.println("Please enter your valid phone number");
+            phone=scan.nextLine();
+            n=phone.length();
+        }
+        
         Thread.sleep(200);
-        System.out.println("Are you hungry yes or no?..");
+        
+        System.out.println("\nAre you hungry yes or no?..");
         String ans1=scan.next();
+        
         Thread.sleep(1000);
+        
         if(ans1.equals("yes")){
             System.out.println("\nwhat you want to eat between Burger, Pizza and Sandwitch ?");
             String ans2=scan.next();
@@ -68,31 +93,31 @@ public class Main{
                     }
                     
                     System.out.println("\nPlease confirm your password..");
-                    confirm=scan.next();
+                    confirm=scan.nextLine();
                     while(!confirm.equals(password))
                      {
                           System.out.println("This is not a right password Please try again");
-                            confirm=scan.next();
+                            confirm=scan.nextLine();
                       }
                       
                       if(ans4.equals("coke")||ans4.equals("juice"))
                     {
                         Thread.sleep(1000);
                         System.out.println("\nGreat you have order "+ans2+" and "+ans4+"..");
-                        System.out.println("Thanku for your order, Your order is delivered within 15 minutes..");
+                        D.thanku(add);
                     }
                 }
                 else{
                     System.out.println("\nPlease confirm your password..");
-                    confirm=scan.next();
+                    confirm=scan.nextLine();
                     while(!confirm.equals(password))
                      {
                           System.out.println("This is not a right password Please try again");
-                            confirm=scan.next();
+                            confirm=scan.nextLine();
                       }
                     Thread.sleep(1000);
                     System.out.println("\nYou have order "+ans2+"..");
-                    System.out.println("Thanku for your order, Your order is delivered within 15 minutes..");
+                    D.thanku(add);
                 }
 
             }
