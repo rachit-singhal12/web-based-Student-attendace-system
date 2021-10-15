@@ -1,2 +1,2 @@
-# FOOD-APP
-food app using java
+# Project based on front end web technology
+using Html, CSs.
