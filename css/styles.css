@@ -1,7 +1,4 @@
-/*  
-Author: WebThemez.com
-License: https://webthemez.com/license 
-*/
+
 @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');    
 
 html {
@@ -47,9 +44,7 @@ hr {
 [role=button] {
   cursor: pointer;
 }  
-/*------------------------------------
-  Headings
-------------------------------------*/
+
 .h1, .h2, .h3, .h4, .h5, .h6, .h7,
 h1, h2, h3, h4, h5, h6 {
   line-height: 1.6;
@@ -73,9 +68,7 @@ h1, h2, h3, h4, h5, h6 {
 header{
   padding: 70px 0 100px;
 }
-/*------------------------------------
-  Highlight Color
-------------------------------------*/
+
 ::-moz-selection {
   color: #fff;
   background-color: #007bff;
@@ -96,9 +89,6 @@ header{
   background-color: #fff;
 }
 
-/*----------------------------------
-  Alerts
-------------------------------------*/
 .alert_icon {
   font-size: 1.25rem;
 }
@@ -139,9 +129,6 @@ p.help-block li {
     list-style:none;
     color:red;
 }
-/*----------------------------------
-  Background Arrow
-------------------------------------*/
 .wt-bg-arrow-wrapper {
   position: relative;
 }
@@ -189,23 +176,15 @@ img.wt-block-image {
 .inner-page{
     background: #006bdf;
 }
-/*----------------------------------
-  Avatars
-------------------------------------*/
 .wt-avatar {
   border: solid 3px #fff;
 }
 
-/*----------------------------------
-  Border Radius
-------------------------------------*/
+
 .rounded-md {
   border-radius: .625rem;
 }
 
-/*----------------------------------
-  Buttons
-------------------------------------*/
 .btn {
   cursor: pointer;
   transition: .2s ease;
@@ -262,17 +241,10 @@ img.wt-block-image {
   color: #007bff;
 }
 
-/*----------------------------------
-  Carousell
-------------------------------------*/
 .carousel-control-size {
   font-size: 2rem;
 }
 
-/*----------------------------------
-  Forms
-------------------------------------*/
-/* Form Lable States */
 .is-valid .form-label-text {
   color: #0dd157;
 }
@@ -285,14 +257,14 @@ img.wt-block-image {
   color: #8f95a0;
 }
 
-/* Form Pilled Shape */
+
 .form--pill {
   border-radius: 6.25rem;
   padding-left: 1rem;
   padding-right: 1rem;
 }
 
-/* Forms Icon */
+
 .form-icon-wrapper {
   position: relative;
   display: block;
@@ -328,7 +300,7 @@ img.wt-block-image {
   transform: translate(-50%, -50%);
 }
 
-/* Form Toggles */
+
 .form-toggle {
   position: relative;
   cursor: pointer;
@@ -459,7 +431,6 @@ img.wt-block-image {
   border-color: #e6e7e9;
 }
 
-/* Bootstrap's Custom Controls */
 .custom-control-input.is-valid:checked ~ .custom-control-label::before {
   background-color: #0dd157;
 }
@@ -471,9 +442,6 @@ img.wt-block-image {
 .custom-control-input:disabled:checked ~ .custom-control-label::before {
   background-color: #d5d7dc;
 } 
-/*----------------------------------
-  Modals
-------------------------------------*/
 .modal-content {
   box-shadow: 0 0.25rem 0.6rem rgba(27, 30, 36, 0.07);
 }
@@ -484,9 +452,6 @@ img.wt-block-image {
   }
 }
 
-/*----------------------------------
-  Pager
-------------------------------------*/
 .pager-btn {
   min-width: 7.2rem;
 }
@@ -499,16 +464,9 @@ img.wt-block-image {
   min-width: 9.4rem;
 }
 
-/*----------------------------------
-  Popover
-------------------------------------*/
 .popover {
   box-shadow: 0 0.25rem 0.6rem rgba(27, 30, 36, 0.07);
 }
-
-/*----------------------------------
-  Progress Bars
-------------------------------------*/
 .progress--pill {
   border-radius: 6.25rem;
 }
@@ -525,9 +483,6 @@ img.wt-block-image {
   background-color: #007bff;
 }
 
-/*----------------------------------
-  Tabs
-------------------------------------*/
 .nav-tabs--v1 .nav-item {
   margin-right: 3px;
 }
@@ -568,10 +523,6 @@ img.wt-block-image {
 .tab-content--v1 p:last-of-type {
   margin-bottom: 0;
 }
-
-/*----------------------------------
-  Blockquote-v1
-------------------------------------*/
 .blockquote-v1 {
   padding: 1.5rem 1.25rem;
   background-color: #f6f9fc;
@@ -589,9 +540,6 @@ img.wt-block-image {
   border-right: solid 0.25rem #007bff;
 }
 
-/*----------------------------------
-  Blockquote-v2
-------------------------------------*/
 .wt-blockquote-v2 {
   position: relative;
   background-color: #fff;
@@ -627,9 +575,6 @@ img.wt-block-image {
   height: 3.75rem;
 }
 
-/*------------------------------------
-  Clients
-------------------------------------*/
 .wt-clients__item {
   border-width: 1px 0 1px 1px;
   border-color: #e6e7e9;
@@ -654,9 +599,6 @@ img.wt-block-image {
   opacity: 1;
 }
 
-/*------------------------------------
-  Mockup (Browser)
-------------------------------------*/
 .wt-browser-img {
   position: relative;
   top: -7px;
@@ -664,9 +606,6 @@ img.wt-block-image {
   border-bottom-right-radius: 0.5rem;
 }
 
-/*------------------------------------
-  Device (iPad)
-------------------------------------*/
 .wt-device {
   position: relative;
   width: 85%;
@@ -679,9 +618,6 @@ img.wt-block-image {
   box-shadow: 10px 15px 55px 15px rgba(140, 152, 164, 0.1);
 }
 
-/*------------------------------------
-  Icon
-------------------------------------*/
 .wt-icon {
   position: relative;
   z-index: 1;
@@ -707,41 +643,29 @@ img.wt-block-image {
   top: 90%;
 }
 
-/*------------------------------------
-  Icon Sizes
-------------------------------------*/
-/* Extra Small */
 .wt-icon--size--xs {
   width: 1.5rem;
   height: 1.5rem;
   font-size: 0.8125rem;
 }
 
-/* Small */
 .wt-icon--size--sm {
   width: 2rem;
   height: 2rem;
   font-size: 1rem;
 }
 
-/* Large */
 .wt-icon--size--lg {
   width: 3.5rem;
   height: 3.5rem;
   font-size: 1.75rem;
 }
 
-/* Extra Large */
 .wt-icon--size--xl {
   width: 5rem;
   height: 5rem;
   font-size: 2.375rem;
 }
-
-/*------------------------------------
-  Icon Default Styles
-------------------------------------*/
-/* primary */
 .wt-icon-primary {
   color: color-yiq(#007bff);
   background-color: #007bff;
@@ -759,7 +683,6 @@ img.wt-block-image {
   border-color: #007bff;
 }
 
-/* secondary */
 .wt-icon-secondary {
   color: color-yiq(#00c9a7);
   background-color: #00c9a7;
@@ -777,7 +700,6 @@ img.wt-block-image {
   border-color: #00c9a7;
 }
 
-/* success */
 .wt-icon-success {
   color: color-yiq(#0dd157);
   background-color: #0dd157;
@@ -795,7 +717,6 @@ img.wt-block-image {
   border-color: #0dd157;
 }
 
-/* info */
 .wt-icon-info {
   color: color-yiq(#2972fa);
   background-color: #2972fa;
@@ -813,7 +734,6 @@ img.wt-block-image {
   border-color: #2972fa;
 }
 
-/* warning */
 .wt-icon-warning {
   color: color-yiq(#fab633);
   background-color: #fab633;
@@ -831,7 +751,6 @@ img.wt-block-image {
   border-color: #fab633;
 }
 
-/* danger */
 .wt-icon-danger {
   color: color-yiq(#fb4143);
   background-color: #fb4143;
@@ -849,7 +768,6 @@ img.wt-block-image {
   border-color: #fb4143;
 }
 
-/* light */
 .wt-icon-light {
   color: color-yiq(#f6f9fc);
   background-color: #f6f9fc;
@@ -867,7 +785,6 @@ img.wt-block-image {
   border-color: #f6f9fc;
 }
 
-/* dark */
 .wt-icon-dark {
   color: color-yiq(#1b1e24);
   background-color: #1b1e24;
@@ -885,7 +802,6 @@ img.wt-block-image {
   border-color: #1b1e24;
 }
 
-/* white */
 .wt-icon-white {
   color: color-yiq(#fff);
   background-color: #fff;
@@ -903,7 +819,6 @@ img.wt-block-image {
   border-color: #fff;
 }
 
-/* facebook */
 .wt-icon-facebook {
   color: color-yiq(#3b5998);
   background-color: #3b5998;
@@ -921,7 +836,6 @@ img.wt-block-image {
   border-color: #3b5998;
 }
 
-/* google */
 .wt-icon-google {
   color: color-yiq(#d14130);
   background-color: #d14130;
@@ -939,7 +853,6 @@ img.wt-block-image {
   border-color: #d14130;
 }
 
-/* twitter */
 .wt-icon-twitter {
   color: color-yiq(#1da1f2);
   background-color: #1da1f2;
@@ -957,7 +870,6 @@ img.wt-block-image {
   border-color: #1da1f2;
 }
 
-/* instagram */
 .wt-icon-instagram {
   color: color-yiq(#3f729b);
   background-color: #3f729b;
@@ -975,7 +887,6 @@ img.wt-block-image {
   border-color: #3f729b;
 }
 
-/* github */
 .wt-icon-github {
   color: color-yiq(#24292e);
   background-color: #24292e;
@@ -993,9 +904,7 @@ img.wt-block-image {
   border-color: #24292e;
 }
 
-/*------------------------------------
-  Icon Block
-------------------------------------*/
+
 .wt-icon-block__col {
   padding-top: 4rem;
   padding-bottom: 4rem;
@@ -1008,9 +917,7 @@ img.wt-block-image {
 .navbar-bg-onscroll .navbar-brand b{
 	 color: #007bff!important;
 }
-/*------------------------------------
-  Portfolio
-------------------------------------*/
+
 .portfolio-menu{
 	text-align:center;
 }
@@ -1028,11 +935,11 @@ img.wt-block-image {
 }
 
 .portfolio-item{
-	/*width:100%;*/
+	
 }
 .portfolio-item .item{ 
 	float:left;
-	/* margin-bottom:10px; */
+	
 }
 .portfolio-item .item .portfolio-item-hover{
 		opacity:0;
@@ -1163,9 +1070,7 @@ img.wt-block-image {
     vertical-align: middle;
     border-top: none;
 }
-/*----------------------------------
-  Promo Block v1
-------------------------------------*/
+
 .wt-promo-block {
   position: relative;
   min-height: 100vh;
@@ -1194,9 +1099,7 @@ img.wt-block-image {
   }
 }
 
-/*------------------------------------
-  Pricing
-------------------------------------*/
+
 .wt-pricing {
   background-color: #fff;
 }
@@ -1235,9 +1138,7 @@ img.wt-block-image {
   color: #85778f;
 }
 
-/*----------------------------------
-  Spaces
-------------------------------------*/
+
 .wt-section {
   padding-top: 8.25rem;
   padding-bottom: 8.25rem;
@@ -1251,16 +1152,10 @@ img.wt-block-image {
   padding-bottom: 8.25rem;
 }
 
-/*----------------------------------
-  Pull
-------------------------------------*/
 .wt-pull-half {
   transform: translate3d(0, -50%, 0);
 }
 
-/*----------------------------------
-  Links
-------------------------------------*/
 .wt-link {
   color: #1b1e24;
   text-decoration: none;
@@ -1271,9 +1166,7 @@ img.wt-block-image {
   text-decoration: none;
 }
 
-/*----------------------------------
-  Box Shadow
-------------------------------------*/
+
 .wt-box-shadow-sm {
   box-shadow: 0 0.2rem 1.25rem 0 rgba(27, 30, 36, 0.07);
 }
@@ -1282,18 +1175,12 @@ img.wt-block-image {
   box-shadow: 0 0.4rem 2.2rem 0 rgba(27, 30, 36, 0.1);
 }
 
-/*----------------------------------
-  Hero Image
-------------------------------------*/
 .wt-hero-img {
   background-repeat: no-repeat;
   background-position: 50% 0;
   background-size: cover;
 }
 
-/*----------------------------------
-  Overlays
-------------------------------------*/
 .wt-overlay {
   position: relative;
 }
@@ -1320,9 +1207,6 @@ img.wt-block-image {
   z-index: 1;
 }
 
-/*----------------------------------
-  Block Alignments
-------------------------------------*/
 .wt-ver-center {
   position: absolute;
   top: 50%;
@@ -1338,11 +1222,6 @@ img.wt-block-image {
   transform: translate3d(-50%, 0, 0);
 }
 
-/*----------------------------------
-  Typography
-------------------------------------*/
-
-/* Font Size */
 .wt-font-size-75 {
   font-size: 75%;
 }
@@ -1351,7 +1230,7 @@ img.wt-block-image {
   font-size: 90%;
 }
 
-/* Letter Spacing */
+
 .wt-ls-xs-xs {
   letter-spacing: 1px;
 }
@@ -1461,9 +1340,6 @@ ul.timeline > li:before {
   }
 }
 
-/*----------------------------------
-  Header
-------------------------------------*/
 @media (max-width: 767px) {
   .navbar-expand-sm.fixed-top {
     background-color: rgba(27, 30, 36, 0.3); 
