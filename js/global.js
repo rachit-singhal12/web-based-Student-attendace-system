@@ -1,26 +1,21 @@
 (function($) {
   'use strict';
 
-  // Activate Tooltips & Popovers
   $(function () {
     $('[data-toggle="tooltip"]').tooltip();
     $('[data-toggle="popover"]').popover();
 
-    // Dismiss Popovers on next click
     $('.popover-dismiss').popover({
       trigger: 'focus'
     })
 	
   });
 AOS.init();
-  // Bootstrap Fixed Header
   $(function() {
-    // Check to see if there is a bakcground class on loading
     if ($('#mainNav').offset().top > 100) {
       $('#mainNav').addClass('navbar-bg-onscroll');
     }
 
-    // Check to add a background class on scrolling
     $(window).on('scroll', function() {
       var navbarOffset = $('#mainNav').offset().top > 100;
       if(navbarOffset) {
@@ -33,7 +28,6 @@ AOS.init();
     });
   });
 
-  // Scroll to (Section)
   $(function() {
     $('a[href*=#js-scroll-to-]:not([href=#js-scroll-to-])').on('click', function() {
       if (location.pathname.replace(/^\//, '') === this.pathname.replace(/^\//, '') && location.hostname === this.hostname) {
