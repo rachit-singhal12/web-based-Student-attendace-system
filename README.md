@@ -1,3 +1,5 @@
-# Project based on front end web technology
-using Html, CSs.
-Note:- To run this code successfully, First of all you make a empty folder with assets name then save css, img, js and vendors folders in it. After that you may this template for your own.
+> About Me
+I am an ethusiastic learner and i am completing BCA from rishikesh and currently i am pursuing MCA from Graphic Era Hill University.
+Interested in Full Stack Web & Problem Solving.
+Some technologies I enjoy working with include CSS, javaScript, PHP, C++, Java.
+I love to learn & Try-out new skills, develop software.
